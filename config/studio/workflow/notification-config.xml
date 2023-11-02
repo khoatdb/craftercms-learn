@@ -78,7 +78,7 @@
                                         &lt;/#list&gt;
                                     &lt;/ul&gt;
                                         Error:&lt;br/&gt;
-                                        ${deploymentError.toString()}
+                                        <pre>${deploymentError}</pre>
                                     &lt;br/&gt;&lt;br/&gt;
                                 &lt;/p&gt;
                             &lt;/body&gt;
