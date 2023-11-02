@@ -14,7 +14,6 @@
   ~ You should have received a copy of the GNU General Public License
   ~ along with this program.  If not, see <http://www.gnu.org/licenses/>.
   -->
-
 <!-- role-mappings-config.xml
 
     This file maps groups to roles.
@@ -49,7 +48,7 @@
 
 -->
 <role-mappings>
-    <version>2</version>
+    <version>4.0.1</version>
     <groups>
         <group name="site_admin">
             <role>admin</role>
