@@ -1,0 +1,76 @@
+# This file describes a plugin for use in Crafter CMS
+
+# The version of the format for this file
+descriptorVersion: 2
+
+# Describe the plugin
+plugin:
+  type: blueprint
+  id: com.rivetlogic.craftercms.blueprint.restaurant
+  name: Restaurant
+  tags:
+    - blueprint
+    - restaurant
+  version:
+    major: 2
+    minor: 0
+    patch: 39
+  description: |
+    Restaurant is a single page Crafter CMS blueprint
+  website:
+    name: Restaurant
+    url: https://github.com/rivetlogic/craftercms-bp-restaurant.git
+  media:
+    screenshots:
+      - title: Home Section
+        description: Screenshot of the home section
+        url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-restaurant/master/static-assets/images/screenshots/bp_restaurant_home.png"
+      - title: Gallery Section
+        description: Screenshot of the gallery section
+        url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-restaurant/master/static-assets/images/screenshots/bp_restaurant_gallery.png"
+      - title: Chefs Section
+        description: Screenshot of the chefs section
+        url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-restaurant/master/static-assets/images/screenshots/bp_restaurant_chefs.png"
+      - title: Contact Section
+        description: Screenshot of the contact section
+        url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-restaurant/master/static-assets/images/screenshots/bp_restaurant_contact_footer.png"
+  developer:
+    company:
+      name: Rivet Logic
+      email: info@rivetlogic.com
+      url: https://rivetlogic.com
+  build:
+    id: c3d2a5444e6a24b5e0481d6ba87901d0b02716c8
+    date: 2019-01-23T00:00:00Z
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/MIT
+  crafterCmsVersions:
+    - major: 4
+      minor: 1
+      patch: 0
+    - major: 4
+      minor: 1
+      patch: 1
+    - major: 4
+      minor: 1
+      patch: 2
+    - major: 4
+      minor: 1
+      patch: 3
+    - major: 4
+      minor: 1
+      patch: 4
+    - major: 4
+      minor: 2
+      patch: 0
+    - major: 4
+      minor: 2
+      patch: 1
+    - major: 4
+      minor: 2
+      patch: 2
+  crafterCmsEditions:
+    - community
+    - enterprise
+  searchEngine: Elasticsearch

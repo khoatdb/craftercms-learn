@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/menu-bar</content-type>	<display-template>/templates/web/components/menu-bar.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>5258</objectGroupId>
+	<objectId>52583db4-8601-0b11-222e-1832be93be57</objectId>
+	<navigationItems_o>	<item>	<navigationItem_t>HOME</navigationItem_t>
+	<type>home</type>
+	<section_s>home</section_s>
+	</item>	<item>	<navigationItem_t>GALLERY</navigationItem_t>
+	<type>gallery</type>
+	<section_s>gallery</section_s>
+	</item>	<item>	<navigationItem_t>MENU</navigationItem_t>
+	<type>menu</type>
+	<section_s>menu</section_s>
+	</item>	<item>	<navigationItem_t>TEAM</navigationItem_t>
+	<type>team</type>
+	<section_s>team</section_s>
+	</item>	<item>	<navigationItem_t>CONTACT</navigationItem_t>
+	<type>contact</type>
+	<section_s>contact</section_s>
+	</item></navigationItems_o>
+	<file-name>navigation-bar.xml</file-name>
+	<folder-name/>
+	<internal-name>Navigation Bar</internal-name>
+	<createdDate>2017-09-4T23:6:39.000Z</createdDate>
+	<createdDate_dt>2017-09-4T23:6:39.000Z</createdDate_dt>
+	<lastModifiedDate>2017-09-11T21:28:25.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-09-11T21:28:25.000Z</lastModifiedDate_dt>
+</component>

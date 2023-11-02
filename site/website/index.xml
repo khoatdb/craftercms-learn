@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/entry</content-type>
+	<placeInNav>true</placeInNav>
+	<display-template>/templates/web/pages/entry.ftl</display-template>
+	<descriptor-mapper>hierarchical-mapper</descriptor-mapper>
+	<no-template-required/>
+	<placeInNav>false</placeInNav>
+	<file-name>index.xml</file-name>
+	<internal-name>Home</internal-name>
+	<orderDefault_f>-1</orderDefault_f>
+	<objectGroupId>8d7f</objectGroupId>
+	<objectId>8d7f21fa-5e09-00aa-8340-853b7db302da</objectId>
+	<folder-name/>
+	<createdDate>2017-01-31T16:18:14.000Z</createdDate>
+	<createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
+	<lastModifiedDate>2021-11-12T23:26:00.565Z</lastModifiedDate>
+	<lastModifiedDate_dt>2021-11-12T23:26:00.565Z</lastModifiedDate_dt>
+	<title_t>Zentro Restaurant</title_t>
+	<slogan_t>The Best Food</slogan_t>
+	<buttonLabel_t>See More</buttonLabel_t>
+	<disabled>false</disabled>
+	<homepageImage_s>/static-assets/images/home-bg.jpg</homepageImage_s>
+	<menuBar_o item-list="true">	<item>	<key>/site/components/navigation-bar.xml</key>
+	<value>Navigation Bar</value>
+	<include>/site/components/navigation-bar.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></menuBar_o>
+	<topSiteName_t>Zentro Inc.</topSiteName_t>
+	<sections_o item-list="true">	<item datasource="sections" inline="true">	<key>b68084ce-3283-29c3-ca5a-30d6050657e9</key>
+	<value>Food Gallery</value>
+<component id="b68084ce-3283-29c3-ca5a-30d6050657e9">
+	<content-type>/component/dish-gallery</content-type>
+	<display-template>/templates/web/components/dish-gallery.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<no-template-required/>
+	<objectGroupId>b680</objectGroupId>
+	<objectId>b68084ce-3283-29c3-ca5a-30d6050657e9</objectId>
+	<dishList_o item-list="true">	<item>	<dishName_t>Lemon-Rosemary Prawn</dishName_t>
+	<dishIngredients_t>Seafood / Shrimp / Lemon</dishIngredients_t>
+	<dishImage_s>/static-assets/images/gallery-img2.jpg</dishImage_s>
+	</item>	<item>	<dishName_t>Lemon-Rosemary Prawn</dishName_t>
+	<dishIngredients_t>Seafood / Shrimp / Lemon</dishIngredients_t>
+	<dishImage_s>/static-assets/images/gallery-img1.jpg</dishImage_s>
+	</item>	<item>	<dishName_t>Lemon-Rosemary Prawn</dishName_t>
+	<dishIngredients_t>Seafood / Shrimp / Lemon</dishIngredients_t>
+	<dishImage_s>/static-assets/images/gallery-img3.jpg</dishImage_s>
+	</item>	<item>	<dishName_t>Lemon-Rosemary Prawn</dishName_t>
+	<dishIngredients_t>Seafood / Shrimp / Lemon</dishIngredients_t>
+	<dishImage_s>/static-assets/images/gallery-img4.jpg</dishImage_s>
+	</item>	<item>	<dishName_t>Lemon-Rosemary Prawn</dishName_t>
+	<dishIngredients_t>Seafood / Shrimp / Lemon</dishIngredients_t>
+	<dishImage_s>/static-assets/images/gallery-img4.jpg</dishImage_s>
+	</item></dishList_o>
+	<file-name>b68084ce-3283-29c3-ca5a-30d6050657e9.xml</file-name>
+	<internal-name>Food Gallery</internal-name>
+	<title_t>Food Gallery</title_t>
+	<createdDate>2019-10-22T22:40:15.696Z</createdDate>
+	<createdDate_dt>2019-10-22T22:40:15.696Z</createdDate_dt>
+	<lastModifiedDate>2019-10-22T22:40:15.696Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-22T22:40:15.696Z</lastModifiedDate_dt>
+</component>
+	</item>	<item datasource="sections" inline="true">	<key>233fd260-7043-e14a-c7b0-e02cf213f448</key>
+	<value>Food Menu</value>
+<component id="233fd260-7043-e14a-c7b0-e02cf213f448">
+	<content-type>/component/menu</content-type>
+	<display-template>/templates/web/components/menu.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<no-template-required/>
+	<objectGroupId>233f</objectGroupId>
+	<objectId>233fd260-7043-e14a-c7b0-e02cf213f448</objectId>
+	<menuList_o item-list="true">	<item>	<dishName_t>Lemon-Rosemary Vegetable</dishName_t>
+	<dishPrice_s>2000.50</dishPrice_s>
+	<dishIngredients_t>Chicken / Rosemary / Lemon</dishIngredients_t>
+	</item>	<item>	<dishName_t>Lemon-Rosemary Meat</dishName_t>
+	<dishPrice_s>3000.50</dishPrice_s>
+	<dishIngredients_t>Meat / Rosemary / Lemon</dishIngredients_t>
+	</item>	<item>	<dishName_t>Lemon-Rosemary Pork </dishName_t>
+	<dishPrice_s>4000.75</dishPrice_s>
+	<dishIngredients_t>Pork / Tooplate / Lemon</dishIngredients_t>
+	</item>	<item>	<dishName_t>Orange-Rosemary Salad</dishName_t>
+	<dishPrice_s>5500.00</dishPrice_s>
+	<dishIngredients_t>Salad / Rosemary / Orange</dishIngredients_t>
+	</item>	<item>	<dishName_t>Lemon-Rosemary Squid</dishName_t>
+	<dishPrice_s>6500.00</dishPrice_s>
+	<dishIngredients_t>Squid / Rosemary / Lemon</dishIngredients_t>
+	</item>	<item>	<dishName_t>Orange-Rosemary Shrimp</dishName_t>
+	<dishPrice_s>7000.50</dishPrice_s>
+	<dishIngredients_t>Shrimp / Rosemary / Orange</dishIngredients_t>
+	</item>	<item>	<dishName_t>Lemon-Rosemary Prawn</dishName_t>
+	<dishPrice_s>11000.75</dishPrice_s>
+	<dishIngredients_t>Chicken / Rosemary / Lemon</dishIngredients_t>
+	</item>	<item>	<dishName_t>Lemon-Rosemary Seafood</dishName_t>
+	<dishPrice_s>2000.99</dishPrice_s>
+	<dishIngredients_t>Seafood / Rosemary / Lemon</dishIngredients_t>
+	</item></menuList_o>
+	<file-name>233fd260-7043-e14a-c7b0-e02cf213f448.xml</file-name>
+	<internal-name>Food Menu</internal-name>
+	<title_t>Menu</title_t>
+	<dishPriceCurrency_s>$</dishPriceCurrency_s>
+	<createdDate>2019-10-22T22:43:36.510Z</createdDate>
+	<createdDate_dt>2019-10-22T22:43:36.510Z</createdDate_dt>
+	<lastModifiedDate>2019-10-22T22:43:36.510Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-22T22:43:36.510Z</lastModifiedDate_dt>
+</component>
+	</item>	<item datasource="sections" inline="true">	<key>3c1323bc-815f-444c-eb9e-571817311067</key>
+	<value>Team</value>
+<component id="3c1323bc-815f-444c-eb9e-571817311067">
+	<content-type>/component/team</content-type>
+	<display-template>/templates/web/components/team.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<no-template-required/>
+	<objectGroupId>3c13</objectGroupId>
+	<objectId>3c1323bc-815f-444c-eb9e-571817311067</objectId>
+	<teamMembers_o item-list="true">	<item>	<employeeName_t>Louis</employeeName_t>
+	<jobTitle_t>Main Chef</jobTitle_t>
+	<employeePhoto_s>/static-assets/images/team1.jpg</employeePhoto_s>
+	</item>	<item>	<employeeName_t>Owen</employeeName_t>
+	<jobTitle_t>Pizza Specialist</jobTitle_t>
+	<employeePhoto_s>/static-assets/images/team2.jpg</employeePhoto_s>
+	</item>	<item>	<employeeName_t>Sophia</employeeName_t>
+	<jobTitle_t>New Baker</jobTitle_t>
+	<employeePhoto_s>/static-assets/images/team3.jpg</employeePhoto_s>
+	</item></teamMembers_o>
+	<file-name>3c1323bc-815f-444c-eb9e-571817311067.xml</file-name>
+	<internal-name>Team</internal-name>
+	<title_t>Meet Zentro chefs</title_t>
+	<createdDate>2019-10-22T22:46:51.968Z</createdDate>
+	<createdDate_dt>2019-10-22T22:46:51.968Z</createdDate_dt>
+	<lastModifiedDate>2021-11-12T23:26:07.692Z</lastModifiedDate>
+	<lastModifiedDate_dt>2021-11-12T23:26:07.692Z</lastModifiedDate_dt>
+	<folder-name/>
+</component>
+	</item>	<item datasource="sections" inline="true">	<key>d5d7502f-4b35-be04-3340-fe6a1a426ca5</key>
+	<value>Contact Us</value>
+<component id="d5d7502f-4b35-be04-3340-fe6a1a426ca5">
+	<content-type>/component/contact</content-type>
+	<display-template>/templates/web/components/contact.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<no-template-required/>
+	<objectGroupId>d5d7</objectGroupId>
+	<objectId>d5d7502f-4b35-be04-3340-fe6a1a426ca5</objectId>
+	<openDays_o item-list="true">	<item>	<openDay_t>Sunday</openDay_t>
+	<openAt_dt>2019-10-22T10:30:00.000Z</openAt_dt>
+	<closedAt_dt>2019-10-22T22:00:00.000Z</closedAt_dt>
+	<openAt_dt_tz>CST5CST</openAt_dt_tz>
+	<closedAt_dt_tz>CST5CST</closedAt_dt_tz>
+	</item>	<item>	<openDay_t>Mon - Fri</openDay_t>
+	<openAt_dt>2019-10-22T09:00:00.000Z</openAt_dt>
+	<closedAt_dt>2019-10-22T20:00:00.000Z</closedAt_dt>
+	<openAt_dt_tz>CST5CST</openAt_dt_tz>
+	<closedAt_dt_tz>CST5CST</closedAt_dt_tz>
+	</item>	<item>	<openDay_t>Saturday</openDay_t>
+	<openAt_dt>2019-10-22T11:30:00.000Z</openAt_dt>
+	<closedAt_dt>2019-10-22T18:00:00.000Z</closedAt_dt>
+	<openAt_dt_tz>CST5CST</openAt_dt_tz>
+	<closedAt_dt_tz>CST5CST</closedAt_dt_tz>
+	</item></openDays_o>
+	<contactSocialLinks_o item-list="true">	<item>	<socialLinksUrl_s>#</socialLinksUrl_s>
+	<socialLinkType_s>facebook</socialLinkType_s>
+	</item>	<item>	<socialLinkType_s>twitter</socialLinkType_s>
+	<socialLinksUrl_s>#</socialLinksUrl_s>
+	</item>	<item>	<socialLinkType_s>behance</socialLinkType_s>
+	<socialLinksUrl_s>#</socialLinksUrl_s>
+	</item>	<item>	<socialLinkType_s>dribbble</socialLinkType_s>
+	<socialLinksUrl_s>#</socialLinksUrl_s>
+	</item>	<item>	<socialLinkType_s>github</socialLinkType_s>
+	<socialLinksUrl_s>#</socialLinksUrl_s>
+	</item></contactSocialLinks_o>
+	<file-name>d5d7502f-4b35-be04-3340-fe6a1a426ca5.xml</file-name>
+	<internal-name>Contact Us</internal-name>
+	<title_t>Contact Us</title_t>
+	<nameLabel_t>Name</nameLabel_t>
+	<emailLabel_t>Email</emailLabel_t>
+	<messageLabel_t>Message</messageLabel_t>
+	<buttonLabel_t>send</buttonLabel_t>
+	<postURL_s>/email-controller</postURL_s>
+	<contactInfoLabel_t>Contact Info.</contactInfoLabel_t>
+	<phoneLabel_t>Phone</phoneLabel_t>
+	<phoneNumber_s>090-080-0760</phoneNumber_s>
+	<locationLabel_t>Our Location</locationLabel_t>
+	<location_t>120 Duis aute irure, California, USA</location_t>
+	<openHoursLabel_t>Open Hours</openHoursLabel_t>
+	<socialLinksTitle_t>Follow Us</socialLinksTitle_t>
+	<createdDate>2019-10-22T22:50:34.860Z</createdDate>
+	<createdDate_dt>2019-10-22T22:50:34.860Z</createdDate_dt>
+	<lastModifiedDate>2019-10-22T22:50:34.860Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-22T22:50:34.860Z</lastModifiedDate_dt>
+</component>
+	</item>	<item datasource="sections" inline="true">	<key>360342e4-1cf3-22ad-05b0-48d0da721d3a</key>
+	<value>Footer</value>
+<component id="360342e4-1cf3-22ad-05b0-48d0da721d3a">
+	<content-type>/component/footer</content-type>
+	<display-template>/templates/web/components/footer.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<no-template-required/>
+	<objectGroupId>3603</objectGroupId>
+	<objectId>360342e4-1cf3-22ad-05b0-48d0da721d3a</objectId>
+	<showCredits_b>true</showCredits_b>
+	<file-name>360342e4-1cf3-22ad-05b0-48d0da721d3a.xml</file-name>
+	<internal-name>Footer</internal-name>
+	<footerTitle_t>Zentro Inc.</footerTitle_t>
+	<copyright_t>Copyright © Zentro Restaurant and Cafe</copyright_t>
+	<creditsLabel_t>Design by:</creditsLabel_t>
+	<linkLabel_t>Tooplate</linkLabel_t>
+	<linkURL_s>http://www.tooplate.com</linkURL_s>
+	<createdDate>2019-10-22T22:55:54.993Z</createdDate>
+	<createdDate_dt>2019-10-22T22:55:54.993Z</createdDate_dt>
+	<lastModifiedDate>2019-10-22T22:55:54.993Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-22T22:55:54.993Z</lastModifiedDate_dt>
+</component>
+	</item></sections_o>
+</page>
