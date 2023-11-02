@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/entry</content-type>
+	<placeInNav>true</placeInNav>
+	<display-template>/templates/web/pages/entry.ftl</display-template>
+	<descriptor-mapper>hierarchical-mapper</descriptor-mapper>
+	<no-template-required/>
+	<objectGroupId>f1ab</objectGroupId>
+	<objectId>f1abd3f9-beb9-ad4a-c568-f73be0bc8cc6</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>about</folder-name>
+	<internal-name>About</internal-name>
+	<topSiteName_t>Zentro</topSiteName_t>
+	<title_t>About</title_t>
+	<slogan_t>efficient</slogan_t>
+	<buttonLabel_t>Go</buttonLabel_t>
+	<disabled>false</disabled>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<sections_o item-list="true"/>
+	<homepageImage_s>/static-assets/images/gallery-img1.jpg</homepageImage_s>
+	<createdDate>2023-11-02T17:20:07.738Z</createdDate>
+	<createdDate_dt>2023-11-02T17:20:07.738Z</createdDate_dt>
+	<lastModifiedDate>2023-11-02T17:20:07.738Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-02T17:20:07.738Z</lastModifiedDate_dt>
+</page>
